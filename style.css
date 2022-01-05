@@ -8,21 +8,37 @@ margin: 0px;
 h1{
     font-size: 50px; 
 }
+h2{
+    font-size: 35px;  
+}
 .style-1{
     color: orange;
 }
 
-section{
+.forflax{
     display:flex;
+    margin-bottom: 150px;
+   
+}
+.bac-img1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.bac-img2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+}
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 8%;
+    margin: 20px;
 }
 .half-width img{
     width: 90%;
+
 }
 .link-button{
     text-decoration: none;
@@ -32,4 +48,45 @@ section{
     font-weight: 700;
     border-radius: 5px;
 }
+.box1{
+    width: 50%;
+   
+    margin-left:5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+   
+    
+   
+    
+}
+#gradiant1{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+    
+
+}
+
+#gradiant2{
+    border-left: 7px solid;
+    border-image:linear-gradient(red, cyan);
+    border-image-slice: 1;
+}
+
+.section3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    text-align: center;
+}
+
+
+
+
+    
+
 
